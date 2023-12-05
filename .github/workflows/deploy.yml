@@ -23,4 +23,3 @@ jobs:
        git config --global user.email $MY_EMAIL
        git config --global user.name $MY_NAME
        git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-       npm run deploy
